@@ -72,6 +72,18 @@ Dashboard KPIs
 
 ---
 
+## Dashboard Features
+
+- Product Rating Distribution
+- Category-wise Products
+- Top Reviewed Products
+- Review Share by Category
+- Average Price Comparison
+- Estimated Revenue by Category
+
+
+---
+
 Dashboard Insights
 
 Rating Analysis
