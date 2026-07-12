@@ -72,7 +72,7 @@ Dashboard KPIs
 
 ---
 
-## Dashboard Features
+Dashboard Features
 
 - Product Rating Distribution
 - Category-wise Products
