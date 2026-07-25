@@ -6,6 +6,24 @@ This project demonstrates an end-to-end data pipeline using AWS S3, Snowflake, S
 
 The Amazon Product dataset was uploaded to AWS S3, loaded into Snowflake using Storage Integration and External Stage, analyzed with SQL, and visualized in Power BI through an interactive dashboard.
 
+## Business Problem
+
+E-commerce platforms contain large volumes of product data across multiple categories, making it difficult to manually evaluate product performance, customer engagement, pricing, and discount strategies.
+
+The objective of this project is to build an end-to-end analytics pipeline that centralizes Amazon product data in a cloud data warehouse and enables business users to analyze product performance through SQL and an interactive Power BI dashboard.
+
+### Business Questions
+
+This project aims to answer the following questions:
+
+- Which product categories receive the highest customer engagement?
+- Which categories have the highest average product ratings?
+- Which products receive the most customer reviews?
+- How do actual prices and discounted prices vary across categories?
+- Which categories offer the highest average discounts?
+- Is a higher discount associated with better product ratings?
+- Which categories contribute the most to overall product volume?
+
 ---
 
 Architecture
