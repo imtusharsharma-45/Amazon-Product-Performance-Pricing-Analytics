@@ -26,19 +26,37 @@ This project aims to answer the following questions:
 
 ---
 
-Architecture
+## Architecture
 
-AWS S3
-↓
+The project follows a cloud-based analytics pipeline where raw Amazon product data is stored in AWS S3, ingested into Snowflake, analyzed using SQL, and visualized through Power BI.
+
+Amazon Product Dataset (CSV)
+          │
+          ▼
+       AWS S3
+          │
+          ▼
 Snowflake Storage Integration
-↓
-Snowflake External Stage
-↓
-Snowflake Table
-↓
-SQL Analysis
-↓
-Power BI Dashboard
+          │
+          ▼
+ Snowflake External Stage
+          │
+          ▼
+   Snowflake Table
+          │
+          ▼
+     SQL Analysis
+          │
+          ▼
+ Power BI Dashboard
+
+Data Flow
+Data Storage: The Amazon product dataset is stored as a CSV file in AWS S3.
+Cloud Integration: Snowflake Storage Integration provides secure access between Snowflake and AWS S3.
+External Stage: A Snowflake External Stage references the dataset stored in S3.
+Data Loading: Product data is loaded into a Snowflake table for analysis.
+SQL Analysis: SQL queries are used to calculate KPIs and analyze ratings, reviews, pricing, discounts, and categories.
+Visualization: Snowflake data is connected to Power BI to build an interactive business dashboard.
 
 ---
 
@@ -53,18 +71,23 @@ Tech Stack
 
 Dataset Information
 
-Dataset contains Amazon product information including:
+## Dataset Information
 
-- Product Name
-- Category
-- Rating
-- Rating Count
-- Discount Percentage
-- Actual Price
-- Discounted Price
+The dataset contains **1,351 Amazon products** with information related to product categories, customer ratings, reviews, pricing, and discounts.
 
-Total Products: 1351
+### Key Columns
 
+| Column | Description |
+|---|---|
+| Product Name | Name of the Amazon product |
+| Category | Product category |
+| Rating | Average customer rating |
+| Rating Count | Number of customer ratings/reviews |
+| Actual Price | Original product price |
+| Discounted Price | Price after discount |
+| Discount Percentage | Percentage discount offered |
+
+**Total Products:** 1,351
 ---
 
 SQL Analysis
