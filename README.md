@@ -109,6 +109,23 @@ The dataset contains **1,351 Amazon products** with information related to produ
 
 ---
 
+## Data Preparation
+
+Before analysis, the dataset requires preprocessing because several analytical fields are stored as text.
+
+The following transformations are required:
+
+- Remove the ₹ symbol from price columns.
+- Remove commas from price and rating count values.
+- Remove the % symbol from discount percentage.
+- Convert prices to numeric values.
+- Convert rating to decimal.
+- Convert rating count to integer.
+- Validate missing values before analysis.
+- Standardize category values where required.
+
+---
+
 ## SQL Analysis
 
 SQL queries were used to explore product performance and generate analytical outputs from the Snowflake dataset.
