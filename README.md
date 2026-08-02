@@ -127,7 +127,7 @@ Rating
 # Dashboard Preview
 
 ## Dashboard Preview
-![Amazon Product Performance Pricing Analytics](Screenshots/amazon%20product%20dashboard.png)
+![Amazon Product Performance & Pricing Analytics Dashboard](Screenshots/Amazon%20Product%20Performance%20%26%20Pricing%20Analytics%20Dashboard.png)
 
 ## Key Business Insights
 
