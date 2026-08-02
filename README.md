@@ -126,7 +126,7 @@ Rating
 
 # Dashboard Preview
 
-Replace with your dashboard image:Screenshots/dashboard.png
+https://github.com/imtusharsharma-45/Amazon-Product-Performance-Pricing-Analytics/blob/main/Screenshots/amazon%20product%20dashboard.png
 
 ## Key Business Insights
 
